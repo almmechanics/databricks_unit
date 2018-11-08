@@ -1,0 +1,17 @@
+{ 
+    "cluster_name": "sparkunit", 
+    "autotermination_minutes" : 20, 
+    "spark_version": "4.1.x-scala2.11", 
+    "node_type_id": "Standard_DS3_v2", 
+    "spark_conf":{
+        "spark.databricks.repl.allowedLanguages":"sql,python,r"
+    },
+    "spark_env_vars": {
+       "PYSPARK_PYTHON": "/databricks/python3/bin/python3"
+    },
+    "autoscale" : 
+        { 
+            "min_workers": 2, 
+            "max_workers": 8
+        }
+}
