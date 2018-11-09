@@ -10,4 +10,3 @@
 
 1. Perform a workcount on the script of  Macbeth
 1. Perform analysis on an avro file
-1. Use the 'avro' python library to export a schema
